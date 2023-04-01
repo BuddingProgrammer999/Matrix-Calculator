@@ -282,8 +282,8 @@ int determinant() { // DEFINED FUNCTION TO FIND THE DETERMINANT OF A MATRIX
 }
 int rank() { // DEFINED FUNCTION FOR FINDING THE RANK OF A MATRIX
     int a[100][100], i, j, rows, columns, determinant, num1, num2, num3, num4, det1, det2, det3, det4, rank = 0, choice4;
-    printf("\nYOU HAVE CHOSEN TO FIND THE DETERMINANT OF A MATRIX!\n");
-    printf("NOTE: YOU CAN CHOOSE ONLY 2X2, 3X3, AND 4X4 MATRICES FOR FINDING THE DETERMINANT!\n\n");
+    printf("\nYOU HAVE CHOSEN TO FIND THE RANK OF A MATRIX!\n");
+    printf("NOTE: YOU CAN CHOOSE ONLY 2X2, 3X3, AND 4X4 MATRICES FOR FINDING THE RANK!\n\n");
     printf("PRESS ENTER TO CONTINUE!\n\n");
     getch();
     do {
@@ -442,7 +442,7 @@ int rank() { // DEFINED FUNCTION FOR FINDING THE RANK OF A MATRIX
 int adjoint() { // DEFINED FUNCTION TO FIND THE ADJOINT OF A MATRIX
     int a[100][100], b[100][100], t[100][100], i, j, rows, columns, choice5;
     printf("\nYOU HAVE CHOSEN TO FIND THE ADJOINT OF A MATRIX!\n");
-    printf("NOTE: YOU CAN CHOOSE ONLY 2X2, 3X3, AND 4X4 MATRICES FOR FINDING THE DETERMINANT!\n");
+    printf("NOTE: YOU CAN CHOOSE ONLY 2X2, 3X3, AND 4X4 MATRICES FOR FINDING THE ADJOINT!\n");
     printf("NOTE: POSITIVE AND NEGATIVE SIGNS ARE NOT BEEN ADDED TO THE ADJOINT OF MATRIX\n\nSO KINDLY MULTIPLY '+' AND  '-' ACCORDING TO THE POSITIONS OF THE ELEMENTS PRESENT IN THE ADJOINT MATRIX\n\n");
     printf("PRESS ENTER TO CONTINUE!\n\n");
     getch();
@@ -580,7 +580,7 @@ int adjoint() { // DEFINED FUNCTION TO FIND THE ADJOINT OF A MATRIX
 }
 int transpose() { // DEFINED FUNCTION FOR FINDING THE TRANSPOSE OF A MATRIX
     int first[100][100], second[100][100], i, j, rows, columns, choice7;
-    printf("\nYOU HAVE CHOSEN TO ADD TWO MATRICES!\n");
+    printf("\nYOU HAVE CHOSEN TO FIND THE TRANSPOSE OF A MATRIX!\n");
     printf("PRESS ENTER TO CONTINUE!\n\n");
     getch();
     printf("\nENTER NUMBER OF ROWS = ");
@@ -641,7 +641,7 @@ int option() {
     printf("D. FIND TRANSPOSE OF A MATRIX.\n");
     printf("E. FIND THE DETERMINANT OF A MATRIX.\n");
     printf("F. FIND THE RANK OF A MATRIX.\n");
-    printf("G. FIND THE ADJOINT OF A MATRIX.\n");
+    printf("G. FIND THE ADJOINT OF A MATRIX.\n\n");
     printf("PLEASE ENTER BLOCK LETTERS ONLY!\n");
     scanf("%s", &preference);
     if (preference == 'A') {
