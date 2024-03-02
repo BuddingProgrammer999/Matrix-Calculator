@@ -486,7 +486,6 @@ int adjoint() { // DEFINED FUNCTION TO FIND THE ADJOINT OF A MATRIX
     printf("%d\t%d\t%d\t%d\n\n%d\t%d\t%d\t%d\n\n%d\t%d\t%d\t%d\n\n%d\t%d\t%d\t%d\n\n", a1, -a2, a3, -a4, -a5, a6, -a7, a8, a9, -a10, a11, -a12, -a13, a14, -a15, a16);
     printf("THE ADJOINT OF GIVEN MATRIX IS: \n");
     printf("%d\t%d\t%d\t%d\n\n%d\t%d\t%d\t%d\n\n%d\t%d\t%d\t%d\n\n%d\t%d\t%d\t%d\n\n", a1, -a5, a9, -a13, -a2, a6, -a10, a14, a3, -a7, a11, -a15, -a4, a8, -a12, a16);
-    printf("\nTHE RESULTANT MATRIX IS: \n");
     break;
     }
     else if (rows == 3 && columns == 3) {
